@@ -15,6 +15,7 @@ namespace Kutse_App
             createRolesandUsers();
         }
 
+        //********************************************************************************************************************************//
         // https://www.c-sharpcorner.com/UploadFile/asmabegam/Asp-Net-mvc-5-security-and-creating-user-role/
         private void createRolesandUsers()
         {
@@ -36,5 +37,6 @@ namespace Kutse_App
                 roleManager.Create(role);
             }
         }
+        //*******************************************************************************************************************************//
     }
 }
