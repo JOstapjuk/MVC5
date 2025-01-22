@@ -144,7 +144,7 @@ namespace Kutse_App.Controllers
             return View();
         }
 
-        //
+        //*****************************************************************************************************************************//
         // POST: /Account/Register
         [HttpPost]
         [AllowAnonymous]
@@ -165,7 +165,8 @@ namespace Kutse_App.Controllers
             }
             return View(model);
         }
-
+        //**************************************************************************************************************************//
+        
         //
         // GET: /Account/ConfirmEmail
         [AllowAnonymous]
